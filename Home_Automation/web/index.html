@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>HomeIQ Control Panel</title>
+</head>
+<body>
+  <h1>HomeIQ Control Panel</h1>
+  <button onclick="sendCommand('fan:on')">Turn Fan On</button>
+  <button onclick="sendCommand('fan:off')">Turn Fan Off</button>
+  <button onclick="sendCommand('light:dim:128')">Dim Light</button>
+  <button onclick="sendCommand('curtain:open')">Open Curtain</button>
+  <button onclick="sendCommand('curtain:close')">Close Curtain</button>
+  <script src="app.js"></script>
+</body>
+</html>
